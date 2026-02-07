@@ -14,5 +14,5 @@ jobs:
       - name: Deploy to EC2
         run: |
           echo "Automated Deployment Successful!"
-          echo "Current Path: $(pwd)"
+          echo "Running on AWS EC2 Runner"
           ls -la
